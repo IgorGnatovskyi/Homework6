@@ -1,0 +1,574 @@
+body {
+    width: 1600px;
+    height: 4500px;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    margin-top: 62px;
+    margin-left: 240px;
+    width: 49px;
+    height: 35px;
+    left: 240px;
+    top: 62px;
+}
+
+nav {
+    margin-left: 121px;
+}
+
+.navmenu {
+   display: flex;
+   margin-top: 73px;
+   text-decoration: none;
+}
+
+li a {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.about { 
+    width: 53px;
+    height: 30px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.help {
+    width: 35px;
+    height: 26px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.features {
+    width: 63px;
+    height: 26px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.singup {
+    width: 51px;
+    height: 26px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.button1 {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+}
+
+.arrow {
+    width: 20px;
+    height: 14px;
+    margin-left: 20px;
+}
+
+.button2 {
+    margin-top: 50px;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+}
+
+.storage {
+    width: 645px;
+    height: 184px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+
+.headline {
+    position: absolute;
+    width: 645px;
+    height: 464px;
+    left: 240px;  
+    top: 240px;
+}
+
+.data {
+    margin-top: 50px;
+    width: 380px;
+    height: 120px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.lineimg {
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 314px;
+    top: 94px;
+    background: url(image1.png);
+}
+
+.level {
+    margin-top: 125px;
+    margin-left: 62px;
+    width: 475px;
+    height: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+
+.mainline {
+    display: flex;
+    position: absolute;
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+.place {
+    margin-top: 40px;
+    margin-left: 62px;
+    width: 474px;
+    height: 170px;
+    left: 790px;
+    top: 1168.18px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+} 
+
+.feature {
+    position: absolute;
+    width: 1136.85px;
+    height: 1002.06px;
+    left: 220px;
+    top: 1613px; 
+}
+
+.feat {
+    margin-left: 354px;
+    width: 405px;
+    height: 52px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+.some {
+    margin-top: 40px;
+    margin-left: 330px;
+    width: 459px;
+    height: 60px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+}
+
+.learn {
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 61px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    column-gap: 20px;
+    width: 543.85px;
+    height: 345.56px;
+}
+
+.content h3 {
+    padding-top: 53px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+
+.picture {
+    padding-top: 80px;
+}
+
+.setence {
+    width: 220px;
+    height: 160px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.lern {
+    width: 87px;
+    height: 26px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    width: 127px;
+    height: 26px;
+    border: none;
+    background: none;
+}
+
+.test {
+    position: absolute;
+    width: 1118px;
+    height: 709px;
+    left: 242px;
+    top: 2789px;
+    background: #9C69E2;
+    border-radius: 50px;
+}
+
+.john {
+    position: absolute;
+    width: 949px;
+    height: 330px;
+    left: 329px;
+    top: 3038px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+}
+
+.maintext {
+    margin-top: 103px;
+    margin-left: 93px;
+    width: 405px;
+    height: 52px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.foto {
+    margin-top: 60px;
+    margin-left: 103px;
+    width: 132.42px;
+    height: 90px; 
+}
+
+.response {
+    width: 566.46px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 44px;
+}
+
+h4 {
+    width: 250.12px;
+    height: 29px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.word {
+    width: 148.6px;
+    height: 22px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+
+.massa {
+    width: 463.46px;
+    height: 130px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+
+.imeges {
+    display: flex;
+    margin-top: 490px;
+    margin-left: 93px;
+
+}
+
+.point {
+    width: 55px;
+    height: 10px;
+}
+
+.big {
+    width: 40px;
+    height: 14px;
+    margin-left: 800px;
+
+}
+
+.small {
+    width: 20px;
+    height: 14px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+hr {
+    position: absolute;
+    width: 1600px;
+    height: 2px;
+    left: 0px;
+    top: 3648px;
+    background: #9C69E2;
+    opacity: 0.2
+}
+
+footer {
+
+    position: absolute;
+    width: 1600px;
+    height: 761px;
+    left: 0px;
+    top: 3648px;
+}
+
+.footers {
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+   width: 584px;
+   height: 101px;
+}
+
+.buttons {
+    width: 410px;
+    height: 60px;
+    margin-top: 121px;
+    padding-left: 96px;
+}
+
+.try {
+    width: 405px;
+    height: 52px;
+    margin-top: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+.get {
+    width: 584px;
+    height: 29px;
+    margin-top: 20px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.more {
+    border: none;
+    width: 170px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+}
+
+.demo {
+    width: 210px;
+    height: 60px;
+    border: none;
+    margin-left: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+}
+
+.footermain {
+    width: 1117em;
+    height: 270px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 148px;
+}
+
+.navmain {
+    padding-left: 110px;
+}
+
+.logodata {
+    display: flex;
+    width: 153px;
+    height: 30px;
+    margin-bottom: 60px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.warehause {
+    padding-left: 20px;
+}
+
+h5 {
+    margin-bottom: 15px;
+}
+
+.maincontact .suports {
+    display: inline-block;
+   
+}
+
+h6 {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.ollmain {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+
+.adress2 {
+    display: flex;
+    margin-left: 250px;
+}
+
+.helpmain {
+   margin-right: 150px;
+
+}
+
+.footerbutton {
+    display: flex;
+    margin-left: 260px;
+    padding-top: 45px;
+    align-items: center;
+
+
+}
+
+.footertex{
+    width: 360px;
+    height: 50px;
+    margin-right: 700px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
